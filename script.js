@@ -12,22 +12,22 @@ let quilometro = medida / 1000;
 
 switch (alternativa) {
     case "1":
-        alert(medida + " equivale a " + milimetros + " milimetros!");
+        alert(medida + " equivale a " + milimetros + " mm");
         break;
     case "2":
-        alert(medida + " equivale a " + centimetro + " centimetros!");
+        alert(medida + " equivale a " + centimetro + " cm");
         break;
     case "3":
-        alert(medida + " equivale a " + decimetro + " decímetros!");
+        alert(medida + " equivale a " + decimetro + " dm");
         break;
     case "4":
-        alert(medida + " equivale a " + decametro + " decâmetros!");
+        alert(medida + " equivale a " + decametro + " dam");
         break;
     case "5":
-        alert(medida + " equivale a " + hectometro + " hectômetros!");
+        alert(medida + " equivale a " + hectometro + " hm");
         break;
     case "6":
-        alert(medida + " equivale a " + quilometro + " quilometros!");
+        alert(medida + " equivale a " + quilometro + " km");
         break;
     default:
         alert("Opção invalida! Escolha um número entre as opções disponiveis.");
